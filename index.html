@@ -12,80 +12,200 @@
     <script>
 
 
-// var num1 = +prompt();
-// var num2 = +prompt();
+        // var num1 = +prompt();
+        // var num2 = +prompt();
 
 
 
 
-// var opt = prompt();
-// if (opt == "+"){
-//     document.write(num1 + num2);
-// }
-// else if (opt == "-"){
-//     document.write(num1 - num2);
-// }
+        // var opt = prompt();
+        // if (opt == "+"){
+        //     document.write(num1 + num2);
+        // }
+        // else if (opt == "-"){
+        //     document.write(num1 - num2);
+        // }
 
 
-// else{
-//     document.write('opeartor wrong h ')
-// }
-       
-// document.write("<h1>" + "Calculater With Prompt" + "</h1>")
+        // else{
+        //     document.write('opeartor wrong h ')
+        // }
 
-//Addition 
+        // document.write("<h1>" + "Calculater With Prompt" + "</h1>")
 
-// var Digit_1 = +prompt("Enter the first number:");
-// document.write("First Number " + Digit_1 + "<br>");
+        //Addition 
 
-// var Digit_2 = +prompt("Enter the Second number:");
-// document.write("Second Number " + Digit_2 + "<br>");
+        // var Digit_1 = +prompt("Enter the first number:");
+        // document.write("First Number " + Digit_1 + "<br>");
 
-// var opt = prompt("Enter The Operator");
+        // var Digit_2 = +prompt("Enter the Second number:");
+        // document.write("Second Number " + Digit_2 + "<br>");
 
-// if(opt == "+"){
-//     var result = Digit_1 + Digit_2;
-//     document.write("Result " + result);
-// }
-// else if(opt == "-"){
-//     var result = Digit_1 - Digit_2;
-//     document.write("The Result of Subtraction " + result);
-// }
-// else if(opt == "*"){
-//     var result = Digit_1 * Digit_2;
-//     document.write("The Result of Multiply " + result);
-// }
-// else if(opt == "/"){
-//     var result = Digit_1 / Digit_2;
-//     document.write("The Result of Divide " + result);
-// }
+        // var opt = prompt("Enter The Operator");
 
-// var fName = tahir;
+        // if(opt == "+"){
+        //     var result = Digit_1 + Digit_2;
+        //     document.write("Result " + result);
+        // }
+        // else if(opt == "-"){
+        //     var result = Digit_1 - Digit_2;
+        //     document.write("The Result of Subtraction " + result);
+        // }
+        // else if(opt == "*"){
+        //     var result = Digit_1 * Digit_2;
+        //     document.write("The Result of Multiply " + result);
+        // }
+        // else if(opt == "/"){
+        //     var result = Digit_1 / Digit_2;
+        //     document.write("The Result of Divide " + result);
+        // }
 
-// var lName = khan;
+        // var fName = tahir;
 
-// var fullName = fName +""+ lName;
+        // var lName = khan;
 
-// if(true){
-//     console.log(fullName)
+        // var fullName = fName +""+ lName;
 
-// }
-// else(false){
-//     console.log(fullName);
-// }
+        // if(true){
+        //     console.log(fullName)
 
-var fName = "tahir";
-var lName = "khan";
-var fullName = fName + " " + lName;
+        // }
+        // else(false){
+        //     console.log(fullName);
+        // }
 
-if(true){
-    console.log(fullName);
-}
-else if(false){
-    console.log(fullName);
-}
+        // var fName = "tahir";
+        // var lName = "khan";
+        // var fullName = fName + " " + lName;
+
+        // if(true){
+        //     console.log(fullName);
+        // }
+        // else if(false){
+        //     console.log(fullName);
+        // }
 
 
+
+        // var course = prompt("Enter Course Name");
+
+        // if(course == "web" || course == "app" || course == "mobile"){
+        //     console.log("Your'e Eligibal");
+        // }else{
+        //     console.log("you are not Eligibal");
+        // }
+
+
+
+        // var name = prompt("enter your name");
+        // document.write(name);
+
+        // var age = +prompt("enter your age");
+        // document.write(age);
+
+        // var education = prompt("enter your Education");
+        // document.write(education);
+
+        // var cities = prompt("Enter city name");
+        // document.write(cities);
+
+        // var eligiblecities = ["karachi", "hyderabad", "multan", "sukkar"];
+
+        // if (name && age && education && cities) {
+        //     if (age <= 18) {
+        //         alert("Age must be required 18 or above");
+        //     } else {
+        //         if (education.toLowerCase == "inter" || "matric" || "nine") {
+        //             alert("must be required ninth or above")
+        //         } else {
+        //             if (cities.toLowerCase === eligiblecities) {
+        //                 alert("Your are not live in required city");
+        //             } else {
+        //                 alert("Congurats you are eligible");
+        //             }
+        //         }
+        //     }
+        // }else{
+        //     alert("You are not eligible");
+        // }
+
+
+
+        // var tableNum = +prompt("Enter Your Table Number");
+        // var myTable1 = 3;
+        // var myTable2 = 5;
+
+        // if(tableNum % myTable1 === 0 && tableNum % myTable2 === 0 ){
+        //     alert("The num is solve");
+        // }else{
+        //     alert("Your num is not supported");
+        // }
+
+
+        //Marksheet with Table
+
+
+        var stdName = prompt("Enter your name");
+
+        var eng = +prompt("Enter Marks");
+
+        var math = +prompt("Enter Marks");
+
+        var urdu = +prompt("Enter Marks");
+
+        var cs = +prompt("Enter Marks");
+
+        var phy = +prompt("Enter Marks");
+
+        var total = eng + math + urdu + cs + phy;
+
+        var per = total / 500 * 100 ;
+
+        var grade;
+
+        if (per >= 80) {
+            grade = "A+";
+        } else if (per >= 70 ) {
+            grade = "A";
+        } else if (per >= 60) {
+            grade = "B";
+        } else if (per >= 50) {
+            grade = "C";
+        } else{
+            grade = "Fail"
+        }
+    
+
+        document.write(
+            `
+            <table border="1px">
+
+                <tr>
+                    <th>Student Name </th>
+                    <th>English</th>
+                    <th>Math</th>
+                    <th>urdu</th>
+                    <th>Cs</th>
+                    <th>Phy</th>
+                    <th>Total</th>
+                    <th>Percentage</th>
+                    <th>Grade</th>
+
+                </tr>
+                <tr>
+                    <td> ${stdName} </td>
+                    <td> ${eng} </td>
+                    <td> ${math} </td>
+                    <td> ${urdu} </td>
+                    <td> ${cs} </td>
+                    <td> ${phy} </td>
+                    <td> ${total} </td>
+                    <td> ${per}% </td>
+                    <td> ${grade} </td>
+                </tr>
+            </table>
+            `
+        )
 
 
     </script>
