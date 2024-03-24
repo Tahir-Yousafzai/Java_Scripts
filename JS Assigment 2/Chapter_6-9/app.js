@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 6-9</title>
-</head>
-
-<body>
-    <script>
-
-        //Assigment 6
-
-
 
         //Question 1
 
@@ -138,18 +123,3 @@
         // document.write("Obtained Marks : " + obt_total_marks + "<br>" );
         
         // document.write("Percentage : " + percentage + "<br>" );
-
-
-        // Question 6
-
-
-        
-
-
-
-
-    </script>
-
-</body>
-
-</html>

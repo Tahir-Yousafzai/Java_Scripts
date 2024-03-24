@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter_5</title>
-</head>
-
-<body>
-    <script>
-        //Assigment 05
-
-
-        //Question 01
+//Question 01
 
         //Question 02
 
@@ -287,11 +273,3 @@
 
 
 
-
-
-
-
-    </script>
-</body>
-
-</html>

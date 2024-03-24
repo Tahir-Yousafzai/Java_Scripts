@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter_4</title>
-</head>
-<body>
-    <script>
-
-
-
-
-
-    //Assigment 04
 
 
         //Question 01
@@ -112,12 +97,3 @@
         // var own = "keyword";
 
         // document.write("Variable names should not be JS " + own);
-
-
-
-
-
-
-    </script>
-</body>
-</html>

@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java_Script_Excercise</title>
-</head>
-
-<body>
-
-    <script>
-
-
         // var num1 = +prompt();
         // var num2 = +prompt();
 
@@ -145,73 +131,146 @@
         //Marksheet with Table
 
 
-        var stdName = prompt("Enter your name");
+        // // var stdName = prompt("Enter your name");
 
-        var eng = +prompt("Enter Marks");
+        // // var eng = +prompt("Enter Marks");
 
-        var math = +prompt("Enter Marks");
+        // // var math = +prompt("Enter Marks");
 
-        var urdu = +prompt("Enter Marks");
+        // // var urdu = +prompt("Enter Marks");
 
-        var cs = +prompt("Enter Marks");
+        // // var cs = +prompt("Enter Marks");
 
-        var phy = +prompt("Enter Marks");
+        // // var phy = +prompt("Enter Marks");
 
-        var total = eng + math + urdu + cs + phy;
+        // // var total = eng + math + urdu + cs + phy;
 
-        var per = total / 500 * 100 ;
+        // // var per = total / 500 * 100 ;
 
-        var grade;
+        // // var grade;
 
-        if (per >= 80) {
-            grade = "A+";
-        } else if (per >= 70 ) {
-            grade = "A";
-        } else if (per >= 60) {
-            grade = "B";
-        } else if (per >= 50) {
-            grade = "C";
-        } else{
-            grade = "Fail"
-        }
+        // // if (per >= 80) {
+        // //     grade = "A+";
+        // // } else if (per >= 70 ) {
+        // //     grade = "A";
+        // // } else if (per >= 60) {
+        // //     grade = "B";
+        // // } else if (per >= 50) {
+        // //     grade = "C";
+        // // } else{
+        // //     grade = "Fail"
+        // // }
+
+
+        // // document.write(
+        // `
+        // //     <table border="1px">
+
+        // //         <tr>
+        // //             <th>Student Name </th>
+        // //             <th>English</th>
+        // //             <th>Math</th>
+        // //             <th>urdu</th>
+        // //             <th>Cs</th>
+        // //             <th>Phy</th>
+        // //             <th>Total</th>
+        // //             <th>Percentage</th>
+        // //             <th>Grade</th>
+
+        // //         </tr>
+        // //         <tr>
+        // //             <td> ${stdName} </td>
+        // //             <td> ${eng} </td>
+        // //             <td> ${math} </td>
+        // //             <td> ${urdu} </td>
+        // //             <td> ${cs} </td>
+        // //             <td> ${phy} </td>
+        // //             <td> ${total} </td>
+        // //             <td> ${per}% </td>
+        // //             <td> ${grade} </td>
+        // //         </tr>
+        // //     </table>
+        // //     `
+        // // )
+
+
+
+        // var firstNum = +prompt("Enter Table Num");
+
+        // var lastNum = +prompt("Enter your Last Num");
+
+        // for(i = 1; i <= lastNum; i++){
+        //     document.write(firstNum + "x" + i + "=" + lastNum*i +"<br>");
+        // }
+
+        // for(i=1; i<=100; i=i+10){
+        //     document.write(i+ "<br>");
+        // }
+
+
+
+
+        // var cities = ["Karachi", "Islamabad", "Lahore", "Multan"];
+        // var userInput = prompt("Enter City Name");
+        // var firstAlpha = userInput.slice(0,1).toUpperCase();
+        // var secondalpha = userInput.slice(1).toLowerCase();
+        // var con = firstAlpha + secondalpha;
+        // var match = "no";
+
+        // for (var i = 0; i <= cities.length; i++) {
+        //     if (con == cities[i]) {
+        //         alert("city found");
+        //         match = "yes";
+        //         break;
+        //     }
+        // }
+        // if (match == "no") {
+        //     alert("city not found");
+
+        // }
+
+
+
+        // for(var i = 1; i<=100; i=i+10){
+        //     for(var j = i; j<i+10 ; j++){
+        //         document.write(j +" ");
+        //     }
+        //     document.write("<br>");
+        // }
+
     
+// var text = "Tahir khan";
 
-        document.write(
-            `
-            <table border="1px">
+// var num = 302420;
 
-                <tr>
-                    <th>Student Name </th>
-                    <th>English</th>
-                    <th>Math</th>
-                    <th>urdu</th>
-                    <th>Cs</th>
-                    <th>Phy</th>
-                    <th>Total</th>
-                    <th>Percentage</th>
-                    <th>Grade</th>
+// var concatinate = text + " " + num;
 
-                </tr>
-                <tr>
-                    <td> ${stdName} </td>
-                    <td> ${eng} </td>
-                    <td> ${math} </td>
-                    <td> ${urdu} </td>
-                    <td> ${cs} </td>
-                    <td> ${phy} </td>
-                    <td> ${total} </td>
-                    <td> ${per}% </td>
-                    <td> ${grade} </td>
-                </tr>
-            </table>
-            `
-        )
+// document.write(concatinate);
 
 
-    </script>
+
+// var tableFisrtNum = +prompt("Enter Table Number");
+
+// var tableLastNum = +prompt("Enter your Last Number");
+
+// for(var i = 1; i<=tableLastNum; i++){
+//     document.write(`${tableFisrtNum} X ${i} = ${tableFisrtNum*i} <br> `)
+// }
 
 
-    <script src="script.js"></script>
-</body>
 
-</html>
+// for(var i = 1; i <= 100; i=i+10){
+//    for(var j = i; j < i + 10; j++){
+//     document.write(`2 x  ${j} = ${j*2} <br> `)
+//    }
+//     document.write("<br>");
+// }
+
+
+
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+
+// for(var i = 0; i<=2; i++){
+//     document.write(arr[i].join(" ")+" "+"<br>");
+// }
+
