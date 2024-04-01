@@ -341,42 +341,42 @@
 
 
 
-var customerName = prompt("Enter your customer Name");
+// var customerName = prompt("Enter your customer Name");
 
-var monthArr = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'july', 'aug', 'sep', 'oct', 'nov', 'dec']
+// var monthArr = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'july', 'aug', 'sep', 'oct', 'nov', 'dec']
 
-var currentMonth = monthArr[new Date().getMonth()];
+// var currentMonth = monthArr[new Date().getMonth()];
 
-var numberUnits = +prompt("Enter your number Units");
+// var numberUnits = +prompt("Enter your number Units");
 
-var chargesUnits = 40 * numberUnits;
+// var chargesUnits = 40 * numberUnits;
 
-var amountPyment = chargesUnits;
+// var amountPyment = chargesUnits;
 
-var latePymentCharges = 25 + "%";
+// var latePymentCharges = 25 + "%";
 
-var dueDateCharges = 25 / 100 * amountPyment;
+// var dueDateCharges = 25 / 100 * amountPyment;
 
-document.write(`<table border = "1">
-<tr>
-<th> Customer Name </th>
-<th> Current Month </th>
-<th> Units </th>
-<th> Units Charges</th>
-<th> Bill Amount</th>
-<th> Late Charges</th>
-<th> Due Date Charges</th>
-</tr>
-<tr>
-<td> ${customerName} </td>
-<td> ${currentMonth} </td>
-<td> ${numberUnits} </td>
-<td> ${chargesUnits} </td>
-<td> ${amountPyment} </td>
-<td> ${latePymentCharges} </td>
-<td> ${dueDateCharges} </td>
-</tr>
-</table> `)
+// document.write(`<table border = "1">
+// <tr>
+// <th> Customer Name </th>
+// <th> Current Month </th>
+// <th> Units </th>
+// <th> Units Charges</th>
+// <th> Bill Amount</th>
+// <th> Late Charges</th>
+// <th> Due Date Charges</th>
+// </tr>
+// <tr>
+// <td> ${customerName} </td>
+// <td> ${currentMonth} </td>
+// <td> ${numberUnits} </td>
+// <td> ${chargesUnits} </td>
+// <td> ${amountPyment} </td>
+// <td> ${latePymentCharges} </td>
+// <td> ${dueDateCharges} </td>
+// </tr>
+// </table> `);
 
 
 

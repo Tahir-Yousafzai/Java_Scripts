@@ -96,7 +96,7 @@
 
 // var bakeryIndex = bakery.indexOf(userInput);
 // match = false
-// for(var i = 0; i <bakery.length; i++){
+// for(var i = 0; i < bakery.length; i++){
 //     if(userInput === bakery[i]){
 //         match = true
 //         document.write(`${userInput} is available at index ${bakeryIndex} in our Bakery`);
@@ -105,7 +105,7 @@
 
 // }if(match == false){
 //     document.write(`${userInput} is not available in our Bakery`);
-    
+
 // }
 
 
@@ -116,16 +116,39 @@
 
 // var numbers = [24, 53, 78, 91, 12];
 
-// var compareNumber = numbers[0];
+// var largestNumber = numbers[0];
 
-// for(var i = 1; i < compareNumber.lenght; i++){
-//     if(numbers[i] > compareNumber){
-//         compareNumber = numbers[i];
+// for (var i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > largestNumber) {
+//         largestNumber = numbers[i];
 //     }
 // }
-// document.write(`The largest Number in the array is ${compareNumber}`);
+
+// document.write("The largest number in the array is:", largestNumber);
+
 
 
 // Question 9
 
 
+// var A = [24, 53, 78, 91, 12];
+
+// var smallest = A[0];
+
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] < smallest) {
+//     smallest = A[i];
+//   }
+// }
+
+// document.write("The smallest number in the array is:", smallest);
+
+
+
+
+// Question 10
+
+
+// for(var i = 5; i <= 100; i=i+5){
+//     document.write(` ${i}, `)
+// }
