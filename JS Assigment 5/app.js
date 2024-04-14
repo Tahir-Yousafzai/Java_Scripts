@@ -144,8 +144,6 @@
 // document.write("The smallest number in the array is:", smallest);
 
 
-
-
 // Question 10
 
 
